@@ -5,7 +5,10 @@ fun main() {
 
 
 kotlinc hello.kt
-
+--------------------------------------------------
 pour voir la version 
 
 kotlinc -version
+---------------------------------------------------
+kotlinc-jvm
+
