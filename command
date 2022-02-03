@@ -18,3 +18,6 @@ kotlinc -version
 >>>>>>>>  shell kotlin
 kotlinc-jvm
 
+>>>>>> exit 
+:quit
+
