@@ -11,9 +11,10 @@ $ kotlinc hello.kt -include-runtime -d hello.jar
 $ java -jar hello.jar
 
 --------------------------------------------------
-pour voir la version 
+>>>>>>>>. pour voir la version 
 
 kotlinc -version
 ---------------------------------------------------
+>>>>>>>>  shell kotlin
 kotlinc-jvm
 
