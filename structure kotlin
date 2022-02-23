@@ -1,0 +1,52 @@
+
+
+1 . Le Fichier manifeste: Le fichier manifeste (AndroidManifest.xml) contient toutes les informations de votre application telles que:
+
+Les permissions,
+L’icon de l’application,
+Le nom de l’application,
+Les composants(Activité,service,BroadcastReceiver,ContenProvider) de votre application,
+Les méta données etc.
+
+
+2 . Le répertoire Java:Ce répertoire contient tous les fichiers de code source de votre application, y compris les codes de teste JUnit.
+
+
+
+3 . Le répertoire res:ce répertoire contient toutes les ressources de votre application tel que:
+
+les fichiers drawable
+Une ou plusieurs chaines de caractère utilisées dans votre application,
+Un ou plusieurs fichiers layout,
+les couleurs etc.
+Le répertoire res contient plusieurs autres sous répertoire tels que:
+
+drawable: Ce répertoire contient les images , les fichiers drawable de votre application
+
+layout: Ce répertoire contient tous les fichiers layout qui définissent les différentes vues de votre application
+
+mipmap: Ce répertoire contient plusieurs icons utilisées dans l’application tel que l’icon de l’application
+
+values: Ce répertoire contient plusieurs fichiers tel que le fichier:
+
+colors.xml: Ce fichier contient les couleurs utilisées dans votre application
+
+strings.xml: Ce fichier contient les chaines de caractère utilisées dans votre application
+
+style.xml: Ce fichier contient tous les style de votre application
+
+
+
+
+build.gradle(Project)
+build.gradle(Project): Ce fichier est utilisé pour définir toutes les dépendance et les configurations qui seront appliquées dans le projet.
+
+C’est par exemple dans ce fichier que vous définissez le plugin gradle que vous utilisez dans votre projet ,les dépôts(repository) dans lesquels il faut télécharger les plugins et les plugins Android Studio utilisés.
+
+build.gradle(app):
+build.gradle(app): Ce fichier est utilisé pour définir les configurations et les dépendances qui seront appliquées dans le module application.
+
+C’est pas exemple dans ce fichier vous allez définir ,la version de l’api d’Android sur laquelle fonctionne votre application et les dépendances des librairie que vous utilisez dans votre application
+
+proguard-rules.pro: C’est dans ce fichier que vous définissez toutes les règles proguard spécifique à votre projet.
+
